@@ -20,4 +20,4 @@ To get some initial formatting help, one can view ["here"](https://embedded-syst
 
 ## Block Diagram 
 
-![Individual Block Diagram ](https://github.com/user-attachments/assets/5ae2f417-4779-43ce-99f5-f7d34d10f28e)
+![Individual Block Diagram ](https://github.com/user-attachments/assets/2f5b69f6-d0d1-42e9-964d-0916d72460a4)
