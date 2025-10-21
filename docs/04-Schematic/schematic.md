@@ -11,7 +11,10 @@ This schematic is design to support .... (highlight functionally, power, and con
 
 **Figure 1:** Showing schematic design for IR Sensor and Pressure Transducer connected to PIC with debugging elements.
 
-![schematic](https://github.com/user-attachments/assets/b69d6ee3-c950-4ad1-924f-d05c2d357595)
+<br>
+
+![schematic](https://github.com/user-attachments/assets/5abf6cd0-1adc-47b8-a7f0-e23caeccc1a2)
+
 
 **Figure 2:** Showing PCB design for IR Sensor and Pressure Transducer connected to PIC with debugging elements.
 
