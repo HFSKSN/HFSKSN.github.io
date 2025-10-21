@@ -20,4 +20,4 @@ This schematic is designed to support the indoor plant irrigation system by dete
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](https://github.com/user-attachments/files/23014127/EGR304_IndividualSubsystem.pdf), the PCB design [*here*](https://github.com/user-attachments/files/23014148/SubsystemPCBDesign.pdf), and the Zip folder of the project [*here*](https://github.com/user-attachments/files/23014131/EGR304_IndividualSubsystem.zip)
+The schematic as a PDF download is available [*here*](https://github.com/user-attachments/files/23014127/EGR304_IndividualSubsystem.pdf), the PCB design [*here*](https://github.com/user-attachments/files/23014148/SubsystemPCBDesign.pdf), the Zip folder of the project [*here*](https://github.com/user-attachments/files/23014131/EGR304_IndividualSubsystem.zip), the Zip folder of the custom symbols library [*here*](https://github.com/user-attachments/files/23014352/HK_HW2_Library.zip), and the Zip folder of the custom footprints library [*here*](https://github.com/user-attachments/files/23014349/SubsystemLibrary.pretty.zip)
