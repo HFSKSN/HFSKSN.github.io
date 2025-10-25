@@ -7,7 +7,7 @@ tags:
 <center>
 <font size= "6">Hafsa Kaysan's Datasheet</font><br>
 as part of<br>
-<font size= "8"> Project Name</font><br>
+<font size= "8"> Automated Plant Irrigation System</font><br>
 for<br>
 <font size= "5"> Team 211 </font><br>
 
@@ -16,13 +16,12 @@ for<br>
 
 ## Introduction
 
-* This needs to be updated so that a reader gets an idea of the purpose of this datasheet.
+The purpose of this datasheet is to organize and record the process of ideating and constructing my subsystem of Team 211's device using various engineering techniques learned from the course EGR 304: Embedded Systems Design Project I. 
 
 ### Project Summary
 
 * This needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
 * Add context that ties into the link to your [team report.](https://embedded-systems-design.github.io/EGR304TeamTemplate/)
-
 
 ### My Contribution
 
