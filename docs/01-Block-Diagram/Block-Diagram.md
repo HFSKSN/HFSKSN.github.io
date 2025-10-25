@@ -21,4 +21,5 @@ To get some initial formatting help, one can view ["here"](https://embedded-syst
 ## Block Diagram 
 
 ![Individual Block Diagram ](https://github.com/user-attachments/assets/ff4512bf-494d-4d0c-8d3b-b573a8e882b0)
+
 PDF version ["here"](https://github.com/user-attachments/files/23138731/EGR304_individualblockdiagram.drawio.pdf)
