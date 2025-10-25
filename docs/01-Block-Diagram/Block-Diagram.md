@@ -8,15 +8,10 @@ tags:
 ## Overview
 This needs to be updated with a brief purpose for having the block diagram.
 Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
-* ...
-
-To get some initial formatting help, one can view ["here"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/) some basic techniques.
-
+* Power levels: +5VDC is used across the entire circuit
+* Sensors: IR Reflective sensor for measuring water tank levels connected to an op amp to increase signal output (primary sensor for project) and a pressure sensor to check for any leaks or other failures in the irrigation system 
+* team connections: Power pin is pin 1 and ground pin is pin 8 for each board
+* Power source: 9VAC 3A wall mounted power supply
 
 ## Block Diagram 
 
