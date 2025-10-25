@@ -10,6 +10,7 @@ The purpose of this block diagram is to organize and assign pins to the board mo
 
 ## Block Diagram 
 
-![Individual Block Diagram ](https://github.com/user-attachments/assets/4f10901e-3915-4dd9-be3e-dac8d9c5ebc9)
+![Individual Block Diagram ](https://github.com/user-attachments/assets/7a224cd9-658e-4628-a21a-ff4fa8739e9c)
 
-PDF version ["here"](https://github.com/user-attachments/files/23144868/EGR304_individualblockdiagram.drawio.pdf)
+
+PDF version ["here"](https://github.com/user-attachments/files/23144874/EGR304_individualblockdiagram.pdf)
