@@ -4,10 +4,11 @@ title: Schematic
 
 ## Overview
 
-This schematic is designed to support the indoor plant irrigation system by detecting water levels in an external water tank using an IR sensor and any leakage or extreme pressure in the irrigation tubing using a pressure transducer. This subsystem in the device is powered by a 9V AC power supply fed into a voltage regulator that produces 5V. This supplies power to the PIC18F57Q43 microcontroller which sends and recieves information to the sensors and communcates with the other microcontrollers in the system. A debugging LED and switch are used to confirm the microcontroller's functionality, a trans-impedance circuit using the MCP6004 quad operational amplifier to amplify the analog signal of the IR Sensor, and extra pin headers are included for debugging key areas and potential component additions.
+This schematic is designed to support the indoor plant irrigation system by detecting water levels in an external water tank using an IR sensor and any leakage or extreme pressure in the irrigation tubing using a pressure transducer. This subsystem in the device is powered by a 9V AC power supply fed into a voltage regulator that produces 5V. This supplies power to the PIC18F57Q43 microcontroller which sends and recieves information to the sensors and communcates with the other microcontrollers in the system. A debugging LED and switch are used to confirm the microcontroller's functionality, a trans-impedance circuit using the MCP6004 quad operational amplifier to amplify the analog signal of the IR Sensor, and extra pin headers are included for debugging key areas and potential component additions. The layout of the components 
 
 
-![schematic](https://github.com/user-attachments/assets/01ff665f-d3e5-47c2-a6ae-10f219c89ad7)
+![schematic](https://github.com/user-attachments/assets/67f1c9ae-420d-4944-bb50-bcd4cc855437)
+
 
 
 **Figure 1:** Showing schematic design for IR Sensor and Pressure Transducer connected to PIC with debugging elements.
