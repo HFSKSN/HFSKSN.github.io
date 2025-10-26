@@ -10,8 +10,9 @@ Write a overview of what you did and why you did a Power Budget.
 
 ## Conclusions
 
-From the prepare Power Budget, .....
+From the prepare Power Budget, our team was able to choose an external power supply that allowed for the current draw of each of our boards.
 
-## Resouces
+## Resources
 
-The power budget as a PDF download is available [*here*](PowerBudgetExample.pdf), and a Microsoft Excel Sheet [*here*](PowerBudgetExample.xlsx).
+The power budget as a PDF download is available [*here*](https://github.com/user-attachments/files/23154111/EGR304_PowerBudget.pdf), and a Microsoft Excel Sheet [*here*](https://github.com/user-attachments/files/23154129/EGR304_PowerBudget.xlsx).
+).
