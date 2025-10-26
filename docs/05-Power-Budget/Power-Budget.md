@@ -14,5 +14,5 @@ From the prepare Power Budget, our team was able to choose an external power sup
 
 ## Resources
 
-The power budget as a PDF download is available [*here*](https://github.com/user-attachments/files/23154111/EGR304_PowerBudget.pdf), and a Microsoft Excel Sheet [*here*](https://github.com/user-attachments/files/23154129/EGR304_PowerBudget.xlsx).
+The power budget as a PDF download is available [*here*](https://github.com/user-attachments/files/23154111/EGR304_PowerBudget.pdf), and a Microsoft Excel Sheet [*here*](https://github.com/user-attachments/files/23154129/EGR304_PowerBudget.xlsx)
 ).
