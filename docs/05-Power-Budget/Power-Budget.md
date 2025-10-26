@@ -5,7 +5,7 @@ title: Power Budget
 ## Overview
 Write a overview of what you did and why you did a Power Budget.
 
-![Power Budget](https://github.com/user-attachments/assets/d0ca744f-101b-4ca6-84ec-f75dd4c4ec82)
+![Power Budget](https://github.com/user-attachments/assets/37a13087-40f1-4316-81be-7bd975c2cf9d)
 
 
 ## Conclusions
