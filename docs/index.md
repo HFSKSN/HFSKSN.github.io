@@ -16,12 +16,14 @@ for<br>
 
 ## Introduction
 
-The purpose of this datasheet is to organize and record the process of ideating and constructing my subsystem of Team 211's device using various engineering techniques I have learned from the course EGR 304: Embedded Systems Design Project I. 
+The purpose of this datasheet is to organize and record the process of planning and constructing my subsystem of Team 211's device using various engineering techniques I have learned from the course EGR 304: Embedded Systems Design Project I. 
 
 ### Project Summary
 
-* This needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
-* Add context that ties into the link to your [team report.](https://egr304-2025-f-211.github.io/)
+Team 211 is a 4-person team consisting of ASU students Levi A, Hafsa K, Kelton J, and Michael K in the course EGR 304: Embedded Systems Design Project I. The purpose of this project is to create a household device that utilizes simple sensors and actuators to help streamline a process, save resources, or eliminate manual steps. Each student is tasked with designing and producing an electrical subsystem for the device utilizing the knowledge and resources provided by the course. You may review the team's ideation process and full design in the [team report.](https://egr304-2025-f-211.github.io/)
+
+
+
 
 ### My Contribution
 
