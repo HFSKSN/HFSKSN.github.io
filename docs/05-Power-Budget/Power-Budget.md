@@ -13,6 +13,9 @@ Write a overview of what you did and why you did a Power Budget.
 
 ![budget3](budgetPg3.png){style width:"350" height:"300;"}
 
+<img width="922" height="921" alt="image" src="https://github.com/user-attachments/assets/5c02975d-5dc9-41c7-bf32-021e06cc0b6d" />
+
+
 ## Conclusions
 
 From the prepare Power Budget, .....
