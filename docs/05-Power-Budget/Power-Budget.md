@@ -3,7 +3,7 @@ title: Power Budget
 ---
 
 ## Overview
-Write a overview of what you did and why you did a Power Budget.
+The purpose of this power budget is to record the voltage and current requirements for each component to ensure that our subsystem design can function within the limitations of the system.  
 
 ![Power Budget](https://github.com/user-attachments/assets/37a13087-40f1-4316-81be-7bd975c2cf9d)
 
