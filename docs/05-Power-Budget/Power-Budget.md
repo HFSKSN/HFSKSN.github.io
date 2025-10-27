@@ -11,7 +11,7 @@ The purpose of this power budget is to record the voltage and current requiremen
 
 ## Conclusions
 
-From the prepare Power Budget, our team was able to choose a power supply that allowed for the current draw of each of our boards. Due to the stationary and long active sessions expected of a plant irrigation system, we choose to use an external power supply over a battery.
+From the prepare Power Budget, our team was able to choose a power supply that allowed for the current draw of each of our boards. Due to the stationary and long active sessions expected of an irrigation system, we choose to use an external power supply over a battery. We chose a wall-mounted power supply the supplies 9V 5A 
 
 ## Resources
 
