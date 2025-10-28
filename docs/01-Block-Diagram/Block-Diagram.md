@@ -13,4 +13,4 @@ The purpose of this block diagram is to organize and assign pins to the board mo
 ![Individual Block Diagram ](EGR304_individualblockdiagram.png)
 
 
-PDF version ["here"](https://github.com/user-attachments/files/23144874/EGR304_individualblockdiagram.pdf)
+PDF version ["here"](EGR304_individualblockdiagram.pdf)
