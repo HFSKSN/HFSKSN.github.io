@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://hfsksn.github.io/01-Block-Diagram/Block-Diagram/</loc>
+         <lastmod>2025-10-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://hfsksn.github.io/02-Component-Selection/Component-Selection/</loc>
          <lastmod>2025-10-28</lastmod>
          <changefreq>daily</changefreq>
@@ -47,11 +52,6 @@
     </url>
     <url>
          <loc>https://hfsksn.github.io/Appendix/esp-32-table/</loc>
-         <lastmod>2025-10-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://hfsksn.github.io/Block-Diagram/Block-Diagram/</loc>
          <lastmod>2025-10-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
