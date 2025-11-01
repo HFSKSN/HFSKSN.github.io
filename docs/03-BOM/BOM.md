@@ -11,4 +11,4 @@ In order to build this subsystem, the components listed below have been added to
 ## Bill of Materials
 ![BOM](EGR304_BOM.png)
 
-**Figure 2:** Image of Bill of Materials, PDF version [*here*](EGR304_IndividualSubsystemBOM.pdf), XLSX version [*here*](EGR304_IndividualSubsystemBOM.xlsx)
+**Figure 1:** Image of Bill of Materials, PDF version [*here*](EGR304_IndividualSubsystemBOM.pdf), XLSX version [*here*](EGR304_IndividualSubsystemBOM.xlsx)
