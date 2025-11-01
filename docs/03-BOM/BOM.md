@@ -12,4 +12,4 @@ written context
 
 ![BOM](EGR304_BOM.png)
 
-**Figure 2:** Bill of Materials excel sheet, PDF version [*here*](EGR304_IndividualSubsystemBOM.pdf)
+**Figure 2:** Bill of Materials excel sheet, PDF version [*here*](EGR304_IndividualSubsystemBOM.pdf), XLSX version [*here*]()
