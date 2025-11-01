@@ -9,7 +9,5 @@ tags:
 written context
 
 ## Bill of Materials
-![](EGR304_BOM.png){style width: "2000"}
-**Figure 2:** Bill of Materials Excel sheet
-
-As you can see, the text can be difficult to read without opening the image.
+![BOM](EGR304_BOM.png)
+**Figure 2:** Bill of Materials excel sheet, PDF version [*here*](EGR304_IndividualSubsystemBOM.pdf)
