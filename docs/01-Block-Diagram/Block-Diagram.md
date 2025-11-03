@@ -10,6 +10,6 @@ The purpose of this block diagram is to organize and assign pins to the board mo
 
 ## Block Diagram 
 
-![Individual Block Diagram ](EGR304_individualblockdiagram.png)
+![Individual Block Diagram ](EGR304_individualblockdiagram.drawio.png)
 
 **Figure 1:** Indivdual Block Diagram with connections and power labeling. PDF version [*here*](EGR304_individualblockdiagram.pdf)
