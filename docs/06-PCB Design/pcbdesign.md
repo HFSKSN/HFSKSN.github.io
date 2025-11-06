@@ -6,7 +6,7 @@ title: PCB Design
 
 ...
 
-![schematic](EGR304_IndividualSubsystemSchematic.png)
+![schematic](docs/04-Schematic/EGR304_IndividualSubsystemSchematic.png)
 
 **Figure 1:** 
 
