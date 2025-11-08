@@ -14,4 +14,4 @@ This schematic is designed to support the indoor plant irrigation system by dete
 
 ## Resources
 
-The schematic as a PDF download is available [*here*](EGR304_IndividualSubsystemSchematic.pdf), the Zip folder of the project [*here*](EGR304_IndividualSubsystem.zip), and the Zip folder of the custom symbols library [*here*](HK_Symbols_Library.zip).
+The schematic as a PDF download is available [*here*](EGR304_IndividualSubsystem.pdf), the Zip folder of the project [*here*](EGR304_IndividualSubsystem.zip), and the Zip folder of the custom symbols library [*here*](HK_Symbol_Library.zip).
