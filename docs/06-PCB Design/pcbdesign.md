@@ -8,18 +8,17 @@ title: PCB Design
 
 ![pcb design](EGR304_PCB.png)
 
-**Figure 1:**
+**Figure 1:** PCB Design in KiCad with component values
 ___
 
 ![3D pcb front](PCB_front.png)
 
-**Figure 2:**
+**Figure 2:** Front 3D view of PCB in KiCAD
 ___
 
 ![3D pcb back](PCB_back.png)
 
-**Figure 3:**
-___
+**Figure 3:** Back 3D view of PCB in KiCAD
 
 
 ## Resources
