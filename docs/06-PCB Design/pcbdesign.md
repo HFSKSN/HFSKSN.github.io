@@ -6,9 +6,17 @@ title: PCB Design
 
 ...
 
-![pcb](EGR304_IndividualSubsystemPCB.png)
+![pcb design](EGR304_PCB.png)
 
-**Figure 1:** 
+**Figure 1:**
+
+![3D pcb front](PCB_front.png)
+
+**Figure 1:**
+
+![3D pcb back](PCB_back.png)
+
+**Figure 1:**
 
 
 ## Resources
