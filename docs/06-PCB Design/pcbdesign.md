@@ -6,7 +6,7 @@ title: PCB Design
 
 ...
 
-![pcb design](EGR304_PCB.png)
+![pcb design](PCB.png)
 
 **Figure 1:** PCB Design in KiCad with component values
 ___
