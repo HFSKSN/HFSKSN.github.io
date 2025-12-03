@@ -31,4 +31,3 @@ The device concept decided upon by Team 211 is a small-scale Automated Plant Irr
 * To review the details listed of the material used to construct the subsystem, navigate to the ["BOM"](https://hfsksn.github.io/03-BOM/BOM/) section of the datasheet.
 * To review the KiCAD schematic and of the subsystem, navigate to the ["Schematic"](https://hfsksn.github.io/04-Schematic/schematic/) section of the datasheet.
 * To review the distribution of power in the subsystem, navigate to the ["Power Budget"](https://hfsksn.github.io/05-Power-Budget/Power-Budget/) section of the datasheet.
-* To review any additional information, navigate to the ["Appendix"](https://hfsksn.github.io/Appendix/) section of the datasheet.
