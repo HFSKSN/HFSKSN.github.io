@@ -1,5 +1,5 @@
 ---
-title: Microcontroller Code
+title: Code
 ---
 
 ## Overview
