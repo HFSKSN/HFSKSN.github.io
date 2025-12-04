@@ -14,6 +14,8 @@ for<br>
 **Submission: December, 08, 2025**
 </center>
 
+![Image of Final Project](EGR304_FinalProject.png)
+
 ## Introduction
 
 The purpose of this datasheet is to organize and record the process of planning and constructing my subsystem of Team 211's device using various engineering techniques I have learned from the course EGR 304: Embedded Systems Design Project I. 
