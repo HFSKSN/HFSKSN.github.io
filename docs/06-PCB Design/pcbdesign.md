@@ -2,7 +2,7 @@
 title: PCB Design
 ---
 
-## PCB Images
+## PCB ECAD
 
 ![pcb design](PCB.png)
 
@@ -18,6 +18,21 @@ ___
 
 **Figure 3:** Back 3D view of PCB in KiCAD
 
+## Final PCB
+
+![pcb design](PCB1.png)
+
+**Figure 4:** Printed PCB with components
+___
+
+![3D pcb front](PCB_front1.png)
+
+**Figure 5:** Front view of printed PCB
+___
+
+![3D pcb back](PCB_back1.png)
+
+**Figure 6:** Back view of printed PCB
 
 ## Resources
 
