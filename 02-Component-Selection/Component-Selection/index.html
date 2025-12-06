@@ -89,6 +89,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#primary-sensor-water-level-sensor" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -528,6 +533,17 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Component Selection
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -537,6 +553,50 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#primary-sensor-water-level-sensor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Primary Sensor - Water Level Sensor
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#secondary-sensor-water-pressure-sensor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Secondary Sensor - Water Pressure Sensor
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pinout-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pinout Selection
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -798,6 +858,41 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#primary-sensor-water-level-sensor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Primary Sensor - Water Level Sensor
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#secondary-sensor-water-pressure-sensor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Secondary Sensor - Water Pressure Sensor
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pinout-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pinout Selection
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -821,7 +916,7 @@
 
   <h1>Component Selection</h1>
 
-<p><strong>Primary Sensor - Water Level Sensor</strong></p>
+<h2 id="primary-sensor-water-level-sensor">Primary Sensor - Water Level Sensor</h2>
 <table>
 <thead>
 <tr>
@@ -850,7 +945,7 @@
 </table>
 <p><strong>Choice:</strong> Option 1: OPB732 IR Reflective Sensor</p>
 <p><strong>Rationale:</strong> This IR sensor is the most suitable option for detecting water tank level in our device given its inexpensive pricing, simple calibration, and microcontroller-friendly design. Though the component is not waterproof and cannot produce accurate measurements when the light from the built-in LED is reflected on water, our team will be able to overcome these issues by including an external cover for the exposed parts of the component and will use a floating "platform" in the water to allow for the device to measure water levels accurately and at a low price.</p>
-<p><strong>Secondary Sensor - Water Pressure Sensor</strong></p>
+<h2 id="secondary-sensor-water-pressure-sensor">Secondary Sensor - Water Pressure Sensor</h2>
 <table>
 <thead>
 <tr>
@@ -879,7 +974,7 @@
 </table>
 <p><strong>Choice:</strong> Option 2: SEN0257 Gravity: Analog Water Pressure Sensor</p>
 <p><strong>Rationale:</strong> An industrial pressure transducer designed for microchip use is better suited to detect leaks in our device than the non-industrial pressure sensors such as the MPX5010DP-ND because of it having a larger range and being specifically designed to work with pipes and liquid flow. Despite not being found on Digikey and being more expensive, the SEN0257 sensor is designed for small-scale microcontroller projects and is able to be calibrated according to our device needs, making it the most suitable option for our team.</p>
-<p><strong>Pinout Selection</strong></p>
+<h2 id="pinout-selection">Pinout Selection</h2>
 
 
 
