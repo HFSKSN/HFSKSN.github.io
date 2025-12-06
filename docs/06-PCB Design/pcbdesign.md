@@ -2,7 +2,7 @@
 title: PCB Design
 ---
 
-## PCB
+## PCB Images
 
 ![pcb design](PCB.png)
 
