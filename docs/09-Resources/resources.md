@@ -2,4 +2,4 @@
 title: Resources
 ---
 
-* ![MPLab X IDE Project Zip](EGR304_Subsystem.zip)
+* [MPLab X IDE Project Zip](EGR304_Subsystem.zip)
