@@ -2,19 +2,7 @@
 title: Component Selection
 ---
 
-**Water Pressure Sensor**
-
-| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![Sensor 1](15971515ND_PressureSensor.png)<br>Option 1.<br>1597-1515-ND Water Pressure Sensor<br>$12.90/each<br>[Link to product](https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/114991178/7387419)                 | \* Least expensive<br>\* No additional wiring needed<br>\* Designed to be integrated into pipe system                                               | \* Requires external components<br>\* Pressure range is too large<br>\* Slow shipping speed |
-| ![Sensor 2](SEN0257_PressureSensor.png)<br>Option 2.<br>SEN0257 Gravity: Analog Water Pressure Sensor<br>$15.90/each <br> [Link to product](https://www.dfrobot.com/product-1675.html) | \* Pressure range is ideal <br>\* No additional wiring needed <br>\* Designed to be integrated into pipe system <br>\* Many online resources on how to use this sensor | * Expensive <br>\* Requires external components |
-| ![Sensor 3](MPX5010DP_PressureSensor.png)<br>Option 3.<br>MPX5010DP-ND Pressure Sensor<br>$17.90/each <br> [Link to product](https://www.digikey.com/en/products/detail/nxp-usa-inc/MPX5010DP/464054) | \* Very accurate sensor <br>\* Most throughly detailed datasheet <br>\* Through-hole pins <br>\* Many online resources on how to use this sensor | * Most expensive <br>\* Slow shipping speed<br>\* Has three no connect pins according to datasheet<br>\* Not easily integrated into pipe system<br>\* Pressure range may be to small                                                  |
-
-**Choice:** Option 2: SEN0257 Gravity: Analog Water Pressure Sensor
-
-**Rationale:** An industrial pressure transducer designed for microchip use is better suited to detect leaks in our device than the non-industrial pressure sensors such as the MPX5010DP-ND because of it having a larger range and being specifically designed to work with pipes and liquid flow. Despite not being found on Digikey and being more expensive, the SEN0257 sensor is designed for small-scale microcontroller projects and is able to be calibrated according to our device needs, making it the most suitable option for our team.
-
-**Water Level Sensor**
+**Primary Sensor - Water Level Sensor**
 
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -25,3 +13,18 @@ title: Component Selection
 **Choice:** Option 1: OPB732 IR Reflective Sensor
 
 **Rationale:** This IR sensor is the most suitable option for detecting water tank level in our device given its inexpensive pricing, simple calibration, and microcontroller-friendly design. Though the component is not waterproof and cannot produce accurate measurements when the light from the built-in LED is reflected on water, our team will be able to overcome these issues by including an external cover for the exposed parts of the component and will use a floating "platform" in the water to allow for the device to measure water levels accurately and at a low price.
+
+**Secondary Sensor - Water Pressure Sensor**
+
+| ** Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| ![Sensor 1](15971515ND_PressureSensor.png)<br>Option 1.<br>1597-1515-ND Water Pressure Sensor<br>$12.90/each<br>[Link to product](https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/114991178/7387419)                 | \* Least expensive<br>\* No additional wiring needed<br>\* Designed to be integrated into pipe system                                               | \* Requires external components<br>\* Pressure range is too large<br>\* Slow shipping speed |
+| ![Sensor 2](SEN0257_PressureSensor.png)<br>Option 2.<br>SEN0257 Gravity: Analog Water Pressure Sensor<br>$15.90/each <br> [Link to product](https://www.dfrobot.com/product-1675.html) | \* Pressure range is ideal <br>\* No additional wiring needed <br>\* Designed to be integrated into pipe system <br>\* Many online resources on how to use this sensor | * Expensive <br>\* Requires external components |
+| ![Sensor 3](MPX5010DP_PressureSensor.png)<br>Option 3.<br>MPX5010DP-ND Pressure Sensor<br>$17.90/each <br> [Link to product](https://www.digikey.com/en/products/detail/nxp-usa-inc/MPX5010DP/464054) | \* Very accurate sensor <br>\* Most throughly detailed datasheet <br>\* Through-hole pins <br>\* Many online resources on how to use this sensor | * Most expensive <br>\* Slow shipping speed<br>\* Has three no connect pins according to datasheet<br>\* Not easily integrated into pipe system<br>\* Pressure range may be to small                                                  |
+
+**Choice:** Option 2: SEN0257 Gravity: Analog Water Pressure Sensor
+
+**Rationale:** An industrial pressure transducer designed for microchip use is better suited to detect leaks in our device than the non-industrial pressure sensors such as the MPX5010DP-ND because of it having a larger range and being specifically designed to work with pipes and liquid flow. Despite not being found on Digikey and being more expensive, the SEN0257 sensor is designed for small-scale microcontroller projects and is able to be calibrated according to our device needs, making it the most suitable option for our team.
+
+**Pinout Selection**
+
