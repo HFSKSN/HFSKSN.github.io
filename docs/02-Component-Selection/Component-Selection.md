@@ -32,3 +32,4 @@ title: Component Selection
 
 ## Pinout Selection
 
+![MPLab X IDE Pinout and Application Builder](pinout.png)
