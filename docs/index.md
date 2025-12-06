@@ -11,7 +11,7 @@ as part of<br>
 for<br>
 <font size= "5"> Team 211 </font><br>
 
-**Submission: December, 08, 2025**
+**Submission: December 08, 2025**
 </center>
 
 ![Image of Final Project](EGR304_FinalProject.png)
