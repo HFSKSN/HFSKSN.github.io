@@ -2,7 +2,7 @@
 title: PCB Design
 ---
 
-## PCB in ECAD
+## PCB ECAD
 
 ![pcb design](PCB.png)
 
@@ -36,4 +36,4 @@ ___
 
 ## Resources
 
-The Zip folder of the Gerber files [*here*](Hafsa211.zip), and the Zip folder of the custom footprint library [*here*](SubsystemLibrary.pretty.zip).
+The Zip folder of the project files are available [*here*](EGR304_IndividualSubsystem.zip), Zip folder of the Gerber files [*here*](Hafsa211.zip), and the Zip folder of the custom footprint library [*here*](SubsystemLibrary.pretty.zip).
