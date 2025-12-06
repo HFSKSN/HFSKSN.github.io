@@ -14,6 +14,8 @@ title: Component Selection
 
 **Rationale:** This IR sensor is the most suitable option for detecting water tank level in our device given its inexpensive pricing, simple calibration, and microcontroller-friendly design. Though the component is not waterproof and cannot produce accurate measurements when the light from the built-in LED is reflected on water, our team will be able to overcome these issues by including an external cover for the exposed parts of the component and will use a floating "platform" in the water to allow for the device to measure water levels accurately and at a low price.
 
+<br>
+
 ## Secondary Sensor - Water Pressure Sensor
 
 | ** Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
@@ -25,6 +27,8 @@ title: Component Selection
 **Choice:** Option 2: SEN0257 Gravity: Analog Water Pressure Sensor
 
 **Rationale:** An industrial pressure transducer designed for microchip use is better suited to detect leaks in our device than the non-industrial pressure sensors such as the MPX5010DP-ND because of it having a larger range and being specifically designed to work with pipes and liquid flow. Despite not being found on Digikey and being more expensive, the SEN0257 sensor is designed for small-scale microcontroller projects and is able to be calibrated according to our device needs, making it the most suitable option for our team.
+
+<br>
 
 ## Pinout Selection
 
