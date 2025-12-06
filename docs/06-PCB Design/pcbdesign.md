@@ -2,11 +2,11 @@
 title: PCB Design
 ---
 
-## PCB ECAD
+## PCB in ECAD
 
 ![pcb design](PCB.png)
 
-**Figure 1:** PCB Design in KiCad with component values
+**Figure 1:** PCB Design in KiCAD with component values
 ___
 
 ![3D pcb front](PCB_front.png)
