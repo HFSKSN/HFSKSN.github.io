@@ -33,7 +33,7 @@ title: Component Selection
 ## Pinout Selection
 
 ![MPLab X IDE Pinout and Application Builder](pinout.png)
-**Figure 1:** Selection of pinout and applications for PIC18F57Q43 on MPLab X IDE to support sensor and microcontroller functionality
+**Figure 1:** Selection of pinout and subsystems for PIC18F57Q43 on MPLab X IDE to support sensor and microcontroller functionality
 
 <br>
 
@@ -41,5 +41,5 @@ title: Component Selection
 
 | **Major Component** | **Quantity** | **Pinout** | **Description** |
 | --- | --- | --- | --- |
-| ![IR Reflective Sensor](OPB732_IRsensor.png)<br>Primary Sensor<br>OPB732 IR Reflective Sensor<br>$4.61/each<br>[Link to product](https://www.digikey.com/en/products/detail/tt-electronics-optek-technology/OPB732/1637069) | 1 | GND, +5V, digital signal | x |
-| ![Water Pressure Sensor](SEN0257_PressureSensor.png)<br>Secondary Sensor<br>SEN0257 Gravity: Analog Water Pressure Sensor<br>$15.90/each <br> [Link to product](https://www.dfrobot.com/product-1675.html) | 1 | GND, +5V, analog signal | x |
+| ![IR Reflective Sensor](OPB732_IRsensor.png)<br>Primary Sensor<br>OPB732 IR Reflective Sensor<br>$4.61/each<br>[Link to product](https://www.digikey.com/en/products/detail/tt-electronics-optek-technology/OPB732/1637069) | 1 | input: GND, GND, +5V<br>output: analog signal<br>hardware/subsystems: op-amp conditioning, ADC, DAC, UART | x |
+| ![Water Pressure Sensor](SEN0257_PressureSensor.png)<br>Secondary Sensor<br>SEN0257 Gravity: Analog Water Pressure Sensor<br>$15.90/each <br> [Link to product](https://www.dfrobot.com/product-1675.html) | 1 | input: GND, +5V<br>output: analog signal<br>hardware/subsystems: ADC, UART | x |
