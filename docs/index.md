@@ -35,3 +35,5 @@ The device concept decided upon by Team 211 is a small-scale Automated Plant Irr
 * To review the distribution of power in the subsystem, navigate to the ["Power Budget"](https://hfsksn.github.io/05-Power%20Budget/Power-Budget/) section of the datasheet.
 * To review the KiCAD PCB design, navigate to the ["PCB Design"](https://hfsksn.github.io/06-PCB-Design/pcbdesign/) section of the datasheet.
 * To review the C code used for the subsystem, navigate to the ["Microcontroller Code"](https://hfsksn.github.io/07-Microcontroller-Code/code/) section of the datasheet.
+* To read my reflection on this project and potential improvements for the subsystem, navigate to the ["Hardware V2.0"](https://hfsksn.github.io/08-Hardware-V2.0/reflection/) section of the datasheet.
+* To view additional resources used for the development of subsystem, navigate to the ["Resources"](https://hfsksn.github.io/09-Resources/resources/) section of the datasheet.
