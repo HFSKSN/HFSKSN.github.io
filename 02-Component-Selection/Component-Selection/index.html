@@ -1128,7 +1128,7 @@
 <p><br></p>
 <h2 id="pinout-selection">Pinout Selection</h2>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../pinout.png" data-desc-position="bottom"><img alt="MPLab X IDE Pinout and Application Builder" src="../pinout.png"></a>
-<strong>Figure 1:</strong> Selection of pinout and applications for PIC18F57Q43 on MPLab X IDE to support sensor and microcontroller functionality</p>
+<strong>Figure 1:</strong> Selection of pinout and subsystems for PIC18F57Q43 on MPLab X IDE to support sensor and microcontroller functionality</p>
 <p><br></p>
 <h2 id="final-component-table">Final Component Table</h2>
 <table>
@@ -1144,13 +1144,13 @@
 <tr>
 <td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../OPB732_IRsensor.png" data-desc-position="bottom"><img alt="IR Reflective Sensor" src="../OPB732_IRsensor.png"></a><br>Primary Sensor<br>OPB732 IR Reflective Sensor<br>$4.61/each<br><a href="https://www.digikey.com/en/products/detail/tt-electronics-optek-technology/OPB732/1637069">Link to product</a></td>
 <td>1</td>
-<td>GND, +5V, digital signal</td>
+<td>input: GND, GND, +5V<br>output: analog signal<br>hardware/subsystems: op-amp conditioning, ADC, DAC, UART</td>
 <td>x</td>
 </tr>
 <tr>
 <td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../SEN0257_PressureSensor.png" data-desc-position="bottom"><img alt="Water Pressure Sensor" src="../SEN0257_PressureSensor.png"></a><br>Secondary Sensor<br>SEN0257 Gravity: Analog Water Pressure Sensor<br>$15.90/each <br> <a href="https://www.dfrobot.com/product-1675.html">Link to product</a></td>
 <td>1</td>
-<td>GND, +5V, analog signal</td>
+<td>input: GND, +5V<br>output: analog signal<br>hardware/subsystems: ADC, UART</td>
 <td>x</td>
 </tr>
 </tbody>
