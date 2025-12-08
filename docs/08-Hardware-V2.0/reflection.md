@@ -2,7 +2,9 @@
 title: Reflection
 ---
 
-If I were to create a second version of the design with more time and resources, I would have added more sensors to the subsystem as well as improved the code for my primary and secondary sensors to better suit the needs of the project. Sensors that our team had in mind while going through the project but weren't able to implement included a moisture sensor, a UV distance sensor, and a solenoid valve. This was because of several reasons, but one of the major ones was that they had daughterboards and were not approved as a result. Extra time may have given Team 211 a chance to look into making our own custom sensors as a subsitute.
+If I were to create a second version of the design with more time and resources, I would have added more sensors to the subsystem as well as improved the code for my primary and secondary sensors to better suit the needs of the project. 
+
+Sensors that our team had in mind while going through the project but weren't able to implement included a moisture sensor, a UV distance sensor, and a solenoid valve. This was because of several reasons, but one of the major ones was that they had daughterboards and were not approved as a result. Extra time may have given Team 211 a chance to look into making our own custom sensors as a subsitute.
 
 As for the code, there was an issue with the value of the IR Sensor analog output to the main subsystem displayed on the LCD not matching the UART print of the same pin from my microcontroller. Our team concluded that this likely due to the travel from one pin to the other through the traces and wires between them. This may have had to be solved by instead programming the microcontroller to output a digital signal when the sensor output reaches a certain range or threshold (empty/not empty based on distance). Internal timers were also an aspect of the project that we unfortunately had not be able to implement due to time constraints, but I believe it would have greatly improved our overall design.
 
