@@ -34,3 +34,10 @@ title: Component Selection
 
 ![MPLab X IDE Pinout and Application Builder](pinout.png)
 **Figure 1:** Selection of pinout and applications for PIC18F57Q43 on MPLab X IDE to support sensor and microcontroller functionality
+
+<br>
+
+## Final Component Table
+
+| Major Component | Pinout | Description |
+| --- | --- | --- |
