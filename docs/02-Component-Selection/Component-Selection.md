@@ -39,5 +39,7 @@ title: Component Selection
 
 ## Final Component Table
 
-| Major Component | Pinout | Description |
-| --- | --- | --- |
+| **Major Component** | **Quantity** | **Pinout** | **Description** |
+| --- | --- | --- | --- |
+| ![IR Reflective Sensor](OPB732_IRsensor.png)<br>Primary Sensor<br>OPB732 IR Reflective Sensor<br>$4.61/each<br>[Link to product](https://www.digikey.com/en/products/detail/tt-electronics-optek-technology/OPB732/1637069) | 1 | GND, +5V, digital signal | x |
+| ![Water Pressure Sensor](SEN0257_PressureSensor.png)<br>Secondary Sensor<br>SEN0257 Gravity: Analog Water Pressure Sensor<br>$15.90/each <br> [Link to product](https://www.dfrobot.com/product-1675.html) | 1 | GND, +5V, analog signal | x |
