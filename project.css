@@ -1,0 +1,136 @@
+:root {
+	--text: #150508;
+    --background: #fdf7f7;
+    --primary: #be4652;
+    --secondary: #ceec89;
+    --accent: #71b0cc;
+}
+body {
+	background-color: var(--background);
+	font-family: Helvetica, Monospace, sans-serif;
+	margin: 1em;
+}
+header {
+	text-align: center;
+	font-family: Monospace, sans-serif;
+}
+header a {
+	text-decoration: none;
+}
+header a:link { color: var(--text); }
+header a:visited { color: var(--text); }
+header a:hover { color: var(--primary); }
+nav {
+	text-align: center;
+	padding: 1em;
+}
+nav a {
+	text-decoration: none;
+}
+nav a:link { color: var(--background); }
+nav a:visited { color: var(--background); }
+nav a:hover { color: var(--text); }
+nav ul { 
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+h1 {
+	letter-spacing: 0.25em;
+}
+h2 {
+	font-family: Monospace, sans-serif;
+}
+footer {
+	text-align: center;
+	margin: 1em;
+}
+footer ul { 
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+#wrapper {
+	
+}
+#logo {
+	margin: auto;
+	width: 60px;
+	height: 60px;
+	border: 10px solid var(--background);
+	border-radius: 3em;
+	background-image: url(images/apple.jpg);
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#scihero {
+	flex: 1;
+	background-image: url(images/sci.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#techhero {
+	flex: 1;
+	background-image: url(images/tech.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#egrhero {
+	flex: 1;
+	background-image: url(images/egr.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#mathhero {
+	flex: 1;
+	background-image: url(images/math.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#searchbar {
+	display: flex;
+	justify-content: right;
+	padding: 0.8em;
+}
+#button {
+	background-color: var(--secondary);
+	padding: 1em;
+	border: 3px solid var(--text);
+	border-radius: 15px;
+	width: 5em;
+	text-align: center;
+	margin: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+#button a:link { color: var(--text); }
+#button a:visited { color: var(--text); }
+#button a:hover { color: var(--background); }
+#button a {
+	text-decoration: none;
+}
+.block {
+	background-color: var(--accent);
+	border-radius: 15px;
+	margin: 0.5em;
+}
+.hero {
+	display: flex;
+	flex-direction: row;
+	height: 20em;
+}
+.title {
+	position: relative;
+	align-items: center;
+	z-index: 1;
+}
+@media (min-width: 600px) {
+	
+}
