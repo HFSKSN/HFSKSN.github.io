@@ -33,9 +33,11 @@ nav ul {
 	justify-content: space-around;
 }
 h1 {
+	color: var(--background);
 	letter-spacing: 0.25em;
 }
 h2 {
+	color: var(--background);
 	text-align: center;
 	font-family: Monospace, sans-serif;
 }

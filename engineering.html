@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>epiSTEMe</title>
+		<title>epiSTEMe :: Science</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="project.css">
 		<link rel="icon" href="images/apple.jpg" type="image/ico">
@@ -16,13 +16,7 @@
 				</div>
 				<header>
 					<a href="index.html"><div id="logo"></div></a>
-					<h1><span style="color:var(--text)">epi</span>stem<span style="color:var(--text)">e</span></h1>
-					<div class="hero">
-						<div id="scihero"></div>
-						<div id="techhero"></div>
-						<div id="egrhero"></div>
-						<div id="mathhero"></div>
-					</div>
+					<h1>Science</h1>
 				</header>
 				<nav>
 					<ul>
@@ -36,15 +30,9 @@
 			<main>
 				<span style="text-align: center"><p>Discover STEM<br>through fun!</p></span>
 				<div class="block">
-					<span style="text-align: center">
-						<h2>Featured Games & Resources</h2>
-						<div class="hero">
-							<div id="scihero"></div>
-							<div id="techhero"></div>
-							<div id="egrhero"></div>
-						</div>
-						<div id="button"><a href="#" onclick="goToRandomPage(); return false;">Random!</a></div>
-					</span>
+					<h2>Science Games & Resources</h2>	
+					<h3>What is Matter?</h3>
+					<iframe width="560em" height="315em" src="https://www.youtube-nocookie.com/embed/ELchwUIlWa8?si=Zf1pFsPFIUliVlBP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 				</div>
 			</main>
 			<footer>
@@ -58,17 +46,5 @@
 				Copyright &copy; 2026 epiSTEMe | <a href="mailto:hafsa@kaysan.com">Hafsa Kaysan</a>
 			</footer>
 		</div>
-		<script>
-			const pages = [
-				"science.html#iframe",
-				/*"technology.html",
-				"engineering.html",
-				"math.html" */
-			  ];
-			function goToRandomPage() {
-				const randomIndex = Math.floor(Math.random() * pages.length);
-				window.location.href = pages[randomIndex];
-			}
-		</script>
 	</body>
 </html>
