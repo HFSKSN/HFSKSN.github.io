@@ -9,16 +9,14 @@
 	</head>
 	<body>
 		<div id="wrapper">
-			<div class="block">
+			<div class="titleblock">
 				<div id="searchbar">
 					<input type="search" placeholder="Search"> 
 					<!-- no backend, cosmetic -->
 				</div>
 				<header>
-					<div class="title">
-						<a href="index.html"><div id="logo"></div></a>
-						<h1>epi<span style="color:var(--primary)">stem</span>e</h1>
-					</div>
+					<a href="index.html"><div id="logo"></div></a>
+					<h1>epi<span style="color:var(--primary)">stem</span>e</h1>
 					<div class="hero">
 						<div id="scihero"></div>
 						<div id="techhero"></div>
@@ -45,7 +43,7 @@
 							<div id="techhero"></div>
 							<div id="egrhero"></div>
 						</div>
-						<div id="button"><a href="">Random!</a></div>
+						<div id="button"><a href="#" onclick="goToRandomPage(); return false;">Random!</a></div>
 					</span>
 				</div>
 			</main>
@@ -56,8 +54,21 @@
 					<li id="button"><a href="">Privacy</a></li>
 					<li id="button"><a href="">Socials</a></li>
 				</ul>
+				<br>
 				Copyright &copy; 2026 epiSTEMe | <a href="mailto:hafsa@kaysan.com">Hafsa Kaysan</a>
 			</footer>
 		</div>
+		<script>
+			const pages = [
+				"science.html#iframe",
+				/*"technology.html",
+				"engineering.html",
+				"math.html" */
+			  ];
+			function goToRandomPage() {
+				const randomIndex = Math.floor(Math.random() * pages.length);
+				window.location.href = pages[randomIndex];
+			}
+		</script>
 	</body>
 </html>
