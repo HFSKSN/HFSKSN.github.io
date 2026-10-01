@@ -119,7 +119,6 @@ footer ul {
 	box-shadow: 3px 3px 3px var(--text);
 }
 #button:hover a { color: var(--background); }
-}
 .titleblock {
 	background-color: var(--accent);
 	border-radius: 15px;
