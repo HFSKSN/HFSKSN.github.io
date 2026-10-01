@@ -70,6 +70,8 @@ footer ul {
 	background-position: center;
 	background-repeat: no-repeat;
 }
+a #logo:hover { scale: 1.1; }
+	
 #scihero {
 	flex: 1;
 	background-image: url(images/sci.jpg);
@@ -110,11 +112,14 @@ footer ul {
 	margin-top: 1em;
 	margin-bottom: 1em;
 }
-#button a:link { color: var(--text); }
-#button a:visited { color: var(--text); }
-#button a:hover { color: var(--background); }
 #button a {
 	text-decoration: none;
+}
+#button a:link { color: var(--text); }
+#button a:visited { color: var(--text); }
+#button a:hover { 
+	color: var(--background); 
+	scale: 1.1;
 }
 .block {
 	background-color: var(--accent);
