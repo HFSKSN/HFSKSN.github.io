@@ -122,19 +122,32 @@ footer ul {
 .titleblock {
 	background-color: var(--accent);
 	border-radius: 15px;
-	margin: 0.5em;
+	margin: 1em;
 }
 .block {
 	background-color: var(--accent);
 	border-radius: 15px;
-	margin: 0.5em;
+	margin: 1em;
 	padding: 1.5em;
 }
 .hero {
 	display: flex;
 	flex-direction: row;
-	height: 20em;
+	height: 400px;
 }
 @media (min-width: 600px) {
 	
+}
+@media (min-width: 1024px) {
+	#wrapper {
+		margin: auto;
+		width: 65%;
+		border: 1px solid #000033;
+		box-shadow: 3px 3px 3px #333333;
+	}
+	.hero {
+		display: flex;
+		flex-direction: row;
+		height: 500px;
+	}
 }
