@@ -21,9 +21,9 @@ nav {
 nav a {
 	text-decoration: none;
 }
-nav a:link { color: var(--text); }
-nav a:visited { color: var(--text); }
-nav a:hover { color: var(--background); }
+nav a:link { color: var(--background); }
+nav a:visited { color: var(--background); }
+nav a:hover { color: var(--text); }
 nav ul { 
 	list-style-type: none;
 	padding-left: 0;
@@ -133,7 +133,7 @@ footer ul {
 .hero {
 	display: flex;
 	flex-direction: row;
-	height: 400px;
+	height: 60vh;
 }
 @media (min-width: 600px) {
 	
@@ -141,9 +141,9 @@ footer ul {
 @media (min-width: 1024px) {
 	#wrapper {
 		margin: auto;
-		width: 65%;
-		border: 1px solid #000033;
-		box-shadow: 3px 3px 3px #333333;
+		width: 100vh;
+		border: 3px solid var(--background);
+		border-radius: 1em;
 	}
 	.hero {
 		display: flex;
