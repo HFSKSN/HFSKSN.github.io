@@ -41,6 +41,12 @@ h2 {
 	text-align: center;
 	font-family: Monospace, sans-serif;
 }
+p {
+	background-color: var(--primary);
+	border-radius: 15px;
+	padding: 1em;
+	color: var(--background)
+}
 footer {
 	text-align: center;
 	margin: 1em;
@@ -119,14 +125,20 @@ footer ul {
 	box-shadow: 3px 3px 3px var(--text);
 }
 #button:hover a { color: var(--background); }
+.block {
+	background-color: var(--accent);
+	border-radius: 15px;
+	padding: 0.5em
+}
 .titleblock {
 	background-color: var(--accent);
 	border-radius: 15px;
 }
-.block {
-	background-color: var(--accent);
+.section {
+	background-color: var(--background);
 	border-radius: 15px;
-	padding: 1.5em;
+	padding: 1em;
+	margin: 1em;
 }
 .hero {
 	display: flex;
