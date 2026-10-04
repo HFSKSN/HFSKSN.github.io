@@ -45,7 +45,8 @@ p {
 	background-color: var(--primary);
 	border-radius: 15px;
 	padding: 1em;
-	color: var(--background)
+	color: var(--background);
+	line-height: 1.5;
 }
 footer {
 	text-align: center;
@@ -58,6 +59,11 @@ footer ul {
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-around;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
 }
 #wrapper {
 	
