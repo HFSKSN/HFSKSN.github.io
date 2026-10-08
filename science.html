@@ -12,8 +12,8 @@
 			<div class="titleblock">
 				<div id="searchbar">
 					<form action="https://www.google.com/search" method="get" target="_blank">
-						<input type="hidden" name="q" value="site:hfsksn.github.io">
-						<input type="text" name="q" placeholder="Search">
+						<input type="text" name="q" placeholder="Search" required>
+						<input type="hidden" name="sitesearch" value="hfsksn.github.io">
 					</form>
 				</div>
 				<header>
@@ -36,9 +36,66 @@
 					<h2>Science Games & Resources</h2>					
 					<div class="section">
 						<h3>Matter Matters Quiz</h3>
-						<form>
-							<input type="submit">
+						<form id="matterQuiz">
+							<div class="question">
+								<h3>1. What is matter?</h3>
+								<label><input type="radio" name="q1" value="a"> Anything that has mass and takes up space</label>
+								<label><input type="radio" name="q1" value="b"> Only solid objects</label>
+								<label><input type="radio" name="q1" value="c"> Energy that can do work</label>
+								<label><input type="radio" name="q1" value="d"> Light and heat</label>
+							</div>
+							<div class="question">
+							  <h3>2. Which of the following is NOT a state of matter?</h3>
+								<label><input type="radio" name="q2" value="a"> Solid</label>
+								<label><input type="radio" name="q2" value="b"> Liquid</label>
+								<label><input type="radio" name="q2" value="c"> Sound</label>
+								<label><input type="radio" name="q2" value="d"> Gas</label>
+							</div>
+							<div class="question">
+								<h3>3. In which state of matter do particles vibrate in fixed positions?</h3>
+								<label><input type="radio" name="q3" value="a"> Liquid</label>
+								<label><input type="radio" name="q3" value="b"> Gas</label>
+								<label><input type="radio" name="q3" value="c"> Solid</label>
+								<label><input type="radio" name="q3" value="d"> Plasma</label>
+							</div>
+							<div class="question">
+								<h3>4. What happens to the particles of a substance when it is heated and melts?</h3>
+								<label><input type="radio" name="q4" value="a"> They stop moving</label>
+								<label><input type="radio" name="q4" value="b"> They move faster and break free from fixed positions</label>
+								<label><input type="radio" name="q4" value="c"> They get closer together</label>
+								<label><input type="radio" name="q4" value="d"> They disappear</label>
+							</div>
+							<div class="question">
+								<h3>5. Which property is shared by all matter?</h3>
+								<label><input type="radio" name="q5" value="a"> It is always visible</label>
+								<label><input type="radio" name="q5" value="b"> It has mass and volume</label>
+								<label><input type="radio" name="q5" value="c"> It can conduct electricity</label>
+								<label><input type="radio" name="q5" value="d"> It is always solid at room temperature</label>
+							</div>
+							<div class="question">
+								<h3>6. Dry ice (solid carbon dioxide) turning into gas is an example of:</h3>
+								<label><input type="radio" name="q6" value="a"> Melting</label>
+								<label><input type="radio" name="q6" value="b"> Freezing</label>
+								<label><input type="radio" name="q6" value="c"> Sublimation</label>
+								<label><input type="radio" name="q6" value="d"> Condensation</label>
+							</div>
+							<div class="question">
+								<h3>7. Which state of matter has no definite shape or volume?</h3>
+								<label><input type="radio" name="q7" value="a"> Solid</label>
+								<label><input type="radio" name="q7" value="b"> Liquid</label>
+								<label><input type="radio" name="q7" value="c"> Gas</label>
+								<label><input type="radio" name="q7" value="d"> All of the above</label>
+							</div>
+							<div class="question">
+								<h3>8. Atoms and molecules are the building blocks of:</h3>
+								<label><input type="radio" name="q8" value="a"> Only liquids</label>
+								<label><input type="radio" name="q8" value="b"> Only gases</label>
+								<label><input type="radio" name="q8" value="c"> All matter</label>
+								<label><input type="radio" name="q8" value="d"> Only solids</label>
+							</div>
+							<button type="submit">Check My Answers</button>
 						</form>
+						<div id="result"></div>
 					</div>
 				</div>
 			</main>
@@ -53,5 +110,47 @@
 				Copyright &copy; 2026 epiSTEMe | <a href="mailto:hafsa@kaysan.com">Hafsa Kaysan</a>
 			</footer>
 		</div>
+		<script>
+			const correctAnswers = {
+				q1: "a",
+				q2: "c",
+				q3: "c",
+				q4: "b",
+				q5: "b",
+				q6: "c",
+				q7: "c",
+				q8: "c"
+			};
+			document.getElementById("matterQuiz").addEventListener("submit", function(e) {
+				e.preventDefault();
+				let score = 0;
+				const total = Object.keys(correctAnswers).length;
+				for (let q in correctAnswers) {
+					const selected = document.querySelector(`input[name="${q}"]:checked`);
+					if (selected && selected.value === correctAnswers[q]) {
+						score++;
+					}
+				}
+				const resultDiv = document.getElementById("result");
+				resultDiv.style.display = "block";
+
+				let message = "";
+				let className = "";
+
+				if (score === total) {
+					message = `Perfect! You scored ${score}/${total}. You really know your matter!`;
+					className = "correct";
+				} else if (score >= total * 0.6) {
+					message = `Good job! You scored ${score}/${total}. Keep studying!`;
+					className = "partial";
+				} else {
+					message = `You scored ${score}/${total}. Review the states and properties of matter and try again!`;
+					className = "wrong";
+				}
+
+				resultDiv.className = className;
+				resultDiv.innerHTML = message;
+			});
+		</script>
 	</body>
 </html>

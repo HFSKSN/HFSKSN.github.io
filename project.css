@@ -65,8 +65,62 @@ form {
 	flex-direction: column;
 	flex-wrap: nowrap;
 }
-#wrapper {
-	
+table {
+	border: 2px solid var(--accent);
+	border-collapse: collapse;
+}
+td, th {
+	padding: 0.5em;
+	border: 2px solid var(--accent);
+	text-align: center;
+}
+th {
+	background-color: #F5FAFC;
+}
+.question {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.question h3 {
+  margin-top: 0;
+  color: #2c5282;
+}
+
+label {
+  display: block;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  margin-right: 8px;
+}
+#result {
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  display: none;
+}
+
+.correct {
+  background: #c6f6d5;
+  color: #22543d;
+}
+
+.partial {
+  background: #fefcbf;
+  color: #744210;
+}
+
+.wrong {
+  background: #fed7d7;
+  color: #742a2a;
 }
 #logo {
 	margin: auto;
